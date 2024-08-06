@@ -3,3 +3,11 @@ body
     background-color: aliceblue;
     color: black;
 }
+
+.imgCarousel
+{
+    height: 700px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
