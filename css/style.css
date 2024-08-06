@@ -4,10 +4,25 @@ body
     color: black;
 }
 
+.carousel-inner
+{
+    position: relative;
+}
+
 .imgCarousel
 {
     height: 700px;
     width: 100%;
-    object-fit: cover;
-    object-position: center;
+    object-fit: fill;
+}
+
+.overlay
+{
+    position: absolute;
+    top: 0px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(9, 9, 32, 0.459);
+    z-index: 1;
 }
